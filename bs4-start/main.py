@@ -1,4 +1,4 @@
-
+########Reads the HTML File##########
 # from bs4 import BeautifulSoup
 # with open("./bs4-start/website.html", encoding="utf-8") as file:
 #     contents = file.read()
@@ -11,6 +11,7 @@
 # heading=soup.find(name="h1",id="name")
 # print(heading)
 
+#######Reads from the web page Link##########
 import requests
 from bs4 import BeautifulSoup
 response=requests.get("https://news.ycombinator.com/newest")
